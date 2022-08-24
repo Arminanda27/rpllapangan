@@ -15,7 +15,7 @@
     <a href="pendaftar.php">Daftar</a>
 
     <h3>Masuk Sebagai Admin</h3>
-    <a href="data_lapangan.php">Isi Data Lapangan</a> ||
-    <a href="data_pembayaran.php">Update Pembayaran</a>
+    <a href="./admin/data_lapangan.php">Isi Data Lapangan</a> ||
+    <a href="./admin/data_pembayaran.php">Update Pembayaran</a>
 </body>
 </html>

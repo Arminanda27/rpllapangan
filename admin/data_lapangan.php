@@ -1,5 +1,5 @@
 <?php
-    include "koneksi.php";
+    include "../koneksi.php";
 ?>
 
 <!DOCTYPE html>
@@ -12,8 +12,8 @@
 </head>
 <body>
 
-    <a href="index.php">Back to Home</a>
-    <h1>Silahkan isis data lapangan</h1>
+    <a href="../welcome.php">Back to Home</a>
+    <h1>Silahkan isi data lapangan</h1>
     <form action="input_data_lapangan.php" method="post">
 
         <label for="">Id Lapangan </label><br>
