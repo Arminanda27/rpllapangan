@@ -10,7 +10,7 @@
     <title>Form Pembayaran</title>
 </head>
 <body>
-    <a href="../welcome.php">Back to Home</a>
+    <a href="welcome.php">Back to Home</a>
     <h1>Silahkan isi bidang di bawah ini</h1>
     <form action="../input/input_data_pembayaran.php" method="post">
 

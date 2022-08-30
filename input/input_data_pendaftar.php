@@ -15,7 +15,7 @@ nomor_hp='$nomor_hp', alamat='$alamat', jenis_lapangan='$jenis_lapangan', jam_mu
 jenis_pembayaran='$jenis_pembayaran'");
 
 if ($insert == true) {
-    header('location: index.php');
+    header('location: ../welcome.php');
 } else {
     echo "<script>alert('Gagal input data lapangan')</script>";
 }

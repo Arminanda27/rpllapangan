@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <a href="../welcome.php">Back to Home</a>
+    <a href="welcome.php">Back to Home</a>
     <h1>Silahkan isi data lapangan</h1>
     <form action="input_data_lapangan.php" method="post">
 

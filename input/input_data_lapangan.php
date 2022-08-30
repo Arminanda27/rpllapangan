@@ -9,7 +9,7 @@ $insert = mysqli_query($koneksi, "INSERT INTO data_lapangan SET id_lapangan='$id
 jenis_lapangan='$jenis_lapangan', type_lapangan='$type_lapangan'");
 
 if ($insert == true) {
-    header('location: index.php');
+    header('location: ../welcome.php');
 } else {
     echo "<script>alert('Gagal input data lapangan')</script>";
 }

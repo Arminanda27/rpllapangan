@@ -10,10 +10,9 @@ include "../koneksi.php";
     <title>Form Pendaftaran</title>
 </head>
 <body>
-    <a href="index.php">Back to Home</a>
+    <a href="../welcome.php">Back to Home</a>
     <h1>Silahkan isi bidang di bawah ini</h1>
-    <form action="input_data_pendaftar.php" method="post">
-
+    <form action="../input/input_data_pendaftar.php" method="post">
         <label for="">Id Pendaftaran</label><br>
         <input type="text" name="id_pendaftar" id=""value="<?= rand(0000, 9999)?>" readonly>
         <br><br>

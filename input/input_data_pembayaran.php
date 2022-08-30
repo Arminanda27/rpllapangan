@@ -13,7 +13,7 @@ jenis_lapangan='$jenis_lapangan', jenis_pembayaran='$jenis_pembayaran', nominal_
 status_pembayaran='$status_pembayaran'");
 
 if ($insert == true) {
-    header('loaction: index.php');
+    header('loaction: ../welcome.php');
 } else {
     echo "<script>alert('Gagal input data pembayaran')</script>";
 }
