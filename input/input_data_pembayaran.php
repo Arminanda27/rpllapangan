@@ -28,6 +28,6 @@ if ($insert == true) {
     <title>Document</title>
 </head>
 <body>
-    <a href="index.php">Home</a>
+    <a href="../admin/welcome.php">Home</a>
 </body>
 </html>
